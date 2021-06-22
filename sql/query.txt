@@ -1,0 +1,5 @@
+الف :‌
+select COUNT(b.Id) as TicketCnt , a.Name from topics as a LEFT JOIN  tickets as b  ON a.Topic_id = b.Topic_id  group by a.Topic_id
+
+ب : 
+
